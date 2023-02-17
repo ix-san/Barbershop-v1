@@ -179,7 +179,7 @@ function Page() {
 						<div class="flex flex-col items-center md:grid md:grid-cols-3 gap-4 md:pt-10 mx-10 group/item">
 							<div class="md:col-start-1 flex items-center justify-center relative overflow-hidden bg-no-repeat bg-cover max-w-xs hover:brightness-90 group/edit group-hover/item:visible">
 								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src="../src/images/cuadro-aqua_Ana.png"/>
-								<p className="absolute-ix inset-y-80 bottom-0 invisible group-hover/edit:visible font-pt-serif font-bold text-5xl text-barbershop-color"> Ana</p>
+								<p className="absolute-ix inset-y-80 bottom-0 invisible group-hover/edit:visible font-pt-serif font-bold text-5xl text-barbershop-color">Angie</p>
 							</div>
 							<div class="md:col-start-2 flex items-center justify-center relative overflow-hidden bg-no-repeat bg-cover max-w-xs hover:brightness-90 group/edit group-hover/item:visible">
 								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src="../src/images/cuadro-aqua.png"/>
