@@ -1,4 +1,5 @@
 Header.jsx
+import LogoBarbershopTrans from "../images/logo-barbershop-Trans.png"
 
 function Header() {
 
@@ -21,7 +22,7 @@ function Header() {
 				  	</div>
 				  	<div className="md:col-span-2 max-w-[40%] md:max-w-[90%]">
 				  		<a href="#barbershop">
-			  				<img src="../src/images/logo-barbershop-Trans.png"/>
+			  				<img src={LogoBarbershopTrans}/>
 			  			</a>
 				  	</div>
 				  	<div className="invisible md:visible font-pt-serif font-bold text-lg">

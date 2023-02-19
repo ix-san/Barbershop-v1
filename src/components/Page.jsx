@@ -1,6 +1,18 @@
 Page.jsx
 import Imagecuchillas from "../images/logo-cuchillas.png"
 import CirculoBarber from "../images/Circulo-Barbershop1985.svg"
+import Linea1 from "../images/Linea1.svg"
+import Ourwork01 from "../images/ourwork01.png"
+import Ourwork20 from "../images/ourwork20.png"
+import Ourwork00 from "../images/ourwork00.png"
+import Ourwork03 from "../images/ourwork03.png"
+import Ourwork10 from "../images/ourwork10.png"
+import Ourwork13 from "../images/ourwork13.png"
+import Ourwork25 from "../images/ourwork25.png"
+import Ourwork23 from "../images/ourwork23.png"
+import CuadroAngie from "../images/cuadro-aqua_Angie.png"
+import Cuadro from "../images/cuadro-aqua.png"
+import Maps from "../images/maps.png"
 
 function Page() {
 
@@ -16,7 +28,7 @@ function Page() {
 					<div className="text-center pt-20">
 						<p className="font-pt-serif font-bold text-4xl text-barbershop-color-brown">BarberShop 1985</p>
 						<div class="flex items-center justify-center">
-							<img className="items-center md:max-w-[70%]" src="../src/images/Linea1.svg"/>
+							<img className="items-center md:max-w-[70%]" src={Linea1}/>
 						</div>
 						<div className="font-dm-serif text-lime-100  text-1xl md:text-2xl mi-7 mx-9">
 							<p >BarberShop 1985 es el espacio para cualquier persona de todas las edades que quieran pasar un tiempo de calidad y una experiencia inigualable. Somos un espacio donde nos aseguramos de que obtenga el mejor corte y el mejor servicio posible.
@@ -31,7 +43,7 @@ function Page() {
 				<div id="servicios" className="text-justify py-32">
 					<p className="font-pt-serif font-bold text-4xl text-barbershop-color-brown text-center">Servicios</p>					
 					<div class="flex items-center justify-center">
-						<img className="items-center max-w-[40%] md:max-w-[20%]" src="../src/images/Linea1.svg"/>
+						<img className="items-center max-w-[40%] md:max-w-[20%]" src={Linea1}/>
 					</div>
 					<div className="grid md:grid-cols-2 pt-3 md:pt-5 text-center mx-9">
 						<div className="pt-5 mx-10">
@@ -150,29 +162,29 @@ function Page() {
 				<div id="nosotros" className="mx-14 pt-40 py-32">
 					<div class="flex flex-col items-center md:grid md:grid-cols-6 gap-4">
 					  <div class="md:col-start-1 text-barbershop-color-blue md:pt-24">
-					  	<img className="items-center pt-4" src="../src/images/ourwork01.png"/>
+					  	<img className="items-center pt-4" src={Ourwork01}/>
 					  </div>
 					  <div class="md:col-start-2 md:col-end-4 text-barbershop-color-blue md:pt-16">
-					  	<img className="items-center pt-4" src="../src/images/ourwork20.png"/>
-					  	<img className="items-center pt-4" src="../src/images/ourwork00.png"/>
+					  	<img className="items-center pt-4" src={Ourwork20}/>
+					  	<img className="items-center pt-4" src={Ourwork00}/>
 					  </div>
 					  <div class="md:col-start-4 text-barbershop-color-blue">
-					  <img className="items-center pt-4" src="../src/images/ourwork03.png"/>
-					  <img className="items-center pt-4" src="../src/images/ourwork10.png"/>
+					  <img className="items-center pt-4" src={Ourwork03}/>
+					  <img className="items-center pt-4" src={Ourwork10}/>
 					  </div>
 					  <div class="md:col-start-5 text-barbershop-color-blue md:pt-16">
-					  <img className="items-center pt-4" src="../src/images/ourwork13.png"/>
-					  <img className="items-center pt-4" src="../src/images/ourwork25.png"/>
+					  <img className="items-center pt-4" src={Ourwork13}/>
+					  <img className="items-center pt-4" src={Ourwork25}/>
 					  </div>
 					  <div class="md:col-start-6 text-barbershop-color-blue md:pt-24">
-					  <img className="items-center pt-4" src="../src/images/ourwork23.png"/>
+					  <img className="items-center pt-4" src={Ourwork23}/>
 					  </div>
 					</div>
 				</div>
 				<div id="equipo" className="text-justify py-32">
 					<p className="font-pt-serif font-bold text-4xl text-barbershop-color-brown text-center">Equipo</p>
 					<div class="flex items-center justify-center">
-						<img className="items-center max-w-[40%] md:max-w-[20%]" src="../src/images/Linea1.svg"/>
+						<img className="items-center max-w-[40%] md:max-w-[20%]" src={Linea1}/>
 					</div>
 					<div className="text-center">
 						<div className="font-dm-serif text-lime-100  text-1xl md:text-2xl my-4 mx-9">
@@ -181,14 +193,14 @@ function Page() {
 						</div>
 						<div class="flex flex-col items-center md:grid md:grid-cols-3 gap-4 md:pt-10 mx-10 group/item">
 							<div class="md:col-start-1 flex items-center justify-center relative overflow-hidden bg-no-repeat bg-cover max-w-xs hover:brightness-90 group/edit group-hover/item:visible">
-								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src="../src/images/cuadro-aqua_Ana.png"/>
+								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src={CuadroAngie}/>
 								<p className="absolute-ix inset-y-80 bottom-0 invisible group-hover/edit:visible font-pt-serif font-bold text-5xl text-barbershop-color">Angie</p>
 							</div>
 							<div class="md:col-start-2 flex items-center justify-center relative overflow-hidden bg-no-repeat bg-cover max-w-xs hover:brightness-90 group/edit group-hover/item:visible">
-								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src="../src/images/cuadro-aqua.png"/>
+								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src={Cuadro}/>
 							</div>
 							<div class="md:col-start-3 flex items-center justify-center relative overflow-hidden bg-no-repeat bg-cover max-w-xs hover:brightness-90 group/edit group-hover/item:visible">
-								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src="../src/images/cuadro-aqua.png"/>
+								<img className=" max-w-xs group-hover/edit:scale-105  transition duration-300 ease-in-out" src={Cuadro}/>
 							</div>
 						</div>
 					</div>
@@ -217,7 +229,7 @@ function Page() {
 						</div>	
 						<div className="py-9 md:mx-10">
 							<div className="flex flex-row justify-center">
-						    	<img className="max-w-[30%]" src="../src/images/maps.png"/>
+						    	<img className="max-w-[30%]" src={Maps}/>
 							</div>
 						</div>
 						<div class="flex justify-start pt-4 pl-8">
