@@ -208,7 +208,7 @@ function Page() {
 				<div id="contacto" className="text-justify pt-32 pb-10">
 					<p className="font-pt-serif font-bold text-4xl text-barbershop-color-brown text-center">Contacto</p>
 					<div class="flex items-center justify-center">
-						<img className="items-center max-w-[40%] md:max-w-[20%]" src="../src/images/Linea1.svg"/>
+						<img className="items-center max-w-[40%] md:max-w-[20%]" src={Linea1}/>
 					</div>
 					<div className="lg:grid lg:grid-cols-2 pt-3 md:pt-5 text-center">
 						<div className="lg:grid lg:grid-cols-3 gap-5 pt-3 lg:text-left pt-5 mx-3 md:mx-7">
