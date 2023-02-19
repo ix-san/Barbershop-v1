@@ -1,4 +1,7 @@
 Page.jsx
+import Imagecuchillas from "../images/logo-cuchillas.png"
+import CirculoBarber from "../images/Circulo-Barbershop1985.svg"
+
 function Page() {
 
 	return(
@@ -6,8 +9,8 @@ function Page() {
 				<div id="barbershop" className="grid md:grid-cols-2 gap-3 py-32 pt-20">
 					<div className="relative grid md:grid-cols-3">
 						<div class="col-start-2 flex items-center justify-center">
-						<img className="absolute-ix max-w-[40%] md:max-w-[30%]" src="../src/images/logo-cuchillas.png"/>
-						<img className="pl-6 md:pl-3 max-w-[80%] md:max-w-[170%]" src="../src/images/Circulo-Barbershop1985.svg"/>
+						<img className="absolute-ix max-w-[40%] md:max-w-[30%]" src={Imagecuchillas}/>
+						<img className="pl-6 md:pl-3 max-w-[80%] md:max-w-[170%]" src={CirculoBarber}/>
 						</div>
 					</div>
 					<div className="text-center pt-20">
